@@ -1,0 +1,48 @@
+.big-img {
+  width: 150px;
+  float: right;
+}
+.cit {
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+  text-align: center;
+  color: teal;
+}
+.description {
+  float: right;
+  display: inline;
+}
+.daily-img {
+  width: 75px;
+}
+.date {
+  display: inline;
+}
+.humidity {
+  bottom: 6px;
+}
+.list-day {
+  width: 645px;
+}
+.weather-forecast-date {
+  font-size: 18px;
+  color: rgb(54, 53, 53);
+  width: 640px;
+}
+.wrapper {
+  margin-top: 20px;
+  border-style: dotted;
+  width: 650px;
+}
+.temps {
+  text-align: justify;
+  font-size: 76px;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+img {
+  width: 645px;
+}
