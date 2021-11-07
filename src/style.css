@@ -43,6 +43,14 @@
   border-style: dotted;
   width: 650px;
 }
+.sunrise {
+  display: inline-table;
+  font-size: 17px;
+}
+.sunset {
+  display: inline-table;
+  font-size: 17px;
+}
 .temps {
   text-align: center;
   font-size: 86px;
@@ -56,4 +64,7 @@ h1 {
 }
 img {
   width: 645px;
+}
+ul {
+  list-style-type: none;
 }

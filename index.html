@@ -23,7 +23,6 @@
   <body>
     <div class="container">
       <div class="wrapper">
-        <img src="src/sky.jpeg" alt="" />
         <h1>Weather</h1>
         <span class="cit"><h2 id="city"></h2></span>
         <form class="search" id="search-form">
@@ -56,6 +55,16 @@
         <span class="temps">
           <div id="temperature"></div>
         </span>
+
+        <ul>
+          <li>
+            <span class="sunrise">Sunrise:<span id="sunrise"></span></span>
+          </li>
+          <li>
+            <span class="sunset">Sunset:<span id="sunset"></span></span>
+          </li>
+        </ul>
+
         <br />
         <h5 class="conditions">Current Conditions</h5>
         <span class="description"><span id="description"></span></span>
@@ -64,7 +73,7 @@
         <div class="col">
           <div class="wind">
             Wind Speed:
-            <span class="speed">5 mph</span>
+            <span id="wind">5 </span> mph
           </div>
           <div class="col">
             <div class="humidity">
