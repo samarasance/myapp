@@ -13,10 +13,13 @@
     <title>WeatherApp</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Zen+Kurenaido&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Pacifico&family=Zen+Kurenaido&display=swap"
       rel="stylesheet"
     />
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -36,13 +39,15 @@
         </form>
         <small>
           <u> updated: </u>
-          <div class="date">
-            <span class="month">October</span>
+          <h2 class="date">
+            <span class="month"></span>
             <span class="day">30</span>
             <span class="year">2020</span>
+
             <br />
-            <span class="hour">10:32 pm</span>
-          </div>
+            <span id="date"></span>
+            <span id="hours"><span id="minutes"></span></span>
+          </h2>
         </small>
         <div class="col">
           <img
@@ -101,6 +106,12 @@
           </div>
         </div>
       </div>
+      <small>
+        <a href="https://github.com/samarasance/myapp" class="href"
+          >Open code source</a
+        >
+        <span class="sam">by Samara Sance</span></small
+      >
     </div>
   </body>
   <script src="src/script.js"></script>

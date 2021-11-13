@@ -26,6 +26,9 @@
 }
 .date {
   display: inline;
+  font-size: 20px;
+  margin-left: 13px;
+  font-family: "Courier New", Courier, monospace;
 }
 .humidity {
   bottom: 6px;
@@ -42,6 +45,9 @@
   margin-top: 20px;
   border-style: dotted;
   width: 650px;
+}
+.sam {
+  font-family: "Homemade Apple", cursive;
 }
 .sunrise {
   display: inline-table;
